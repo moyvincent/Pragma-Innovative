@@ -880,6 +880,10 @@ section {
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
+#why-us{
+  background: #3a3a34;
+}
+
 .why-us .box {
   padding: 50px 30px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -1018,6 +1022,10 @@ section {
 /*--------------------------------------------------------------
 # Specials
 --------------------------------------------------------------*/
+#specials{
+  background: rgba(0, 0, 0, 0.9);
+}
+
 .specials {
   overflow: hidden;
 }
@@ -1032,23 +1040,23 @@ section {
   transition: 0.3s;
   color: #fff;
   border-radius: 0;
-  border-right: 2px solid #cda45e;
+  border-right: 2px solid #f4623a;
   font-weight: 600;
   font-size: 15px;
 }
 
 .specials .nav-link:hover {
-  color: #cda45e;
+  color: #f4623a;
 }
 
 .specials .nav-link.active {
   color: #1a1814;
-  background: #cda45e;
-  border-color: #cda45e;
+  background: #f4623a;
+  border-color: #f4623a;
 }
 
 .specials .nav-link:hover {
-  border-color: #cda45e;
+  border-color: #f4623a;
 }
 
 .specials .tab-pane.active {
@@ -1123,7 +1131,7 @@ section {
 .events .event-item h3 {
   font-weight: 600;
   font-size: 26px;
-  color: #cda45e;
+  color: #f4623a;
 }
 
 .events .event-item .price {
@@ -1134,7 +1142,7 @@ section {
 }
 
 .events .event-item .price span {
-  border-bottom: 2px solid #cda45e;
+  border-bottom: 2px solid #f4623a;
 }
 
 .events .event-item ul {
@@ -1149,7 +1157,7 @@ section {
 .events .event-item ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #cda45e;
+  color: #f4623a;
 }
 
 .events .event-item p:last-child {
@@ -1171,7 +1179,7 @@ section {
 }
 
 .events .owl-dot.active {
-  background-color: #cda45e !important;
+  background-color: #f4623a !important;
 }
 
 @media (min-width: 992px) {
