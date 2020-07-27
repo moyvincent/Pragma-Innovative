@@ -779,10 +779,11 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  background: url("../img/about-bg.jpg") center center;
+  background: url("../img/car3.jpg") center center;
   background-size: cover;
   position: relative;
   padding: 80px 0;
+  color: #fff
 }
 
 .about:before {
@@ -814,8 +815,8 @@ section {
   height: 60px;
   z-index: 1;
   content: '';
-  border-left: 5px solid #cda45e;
-  border-top: 5px solid #cda45e;
+  border-left: 5px solid #f4623a;
+  border-top: 5px solid #f4623a;
   transition: .5s;
 }
 
@@ -827,8 +828,8 @@ section {
   height: 60px;
   z-index: 2;
   content: '';
-  border-right: 5px solid #cda45e;
-  border-bottom: 5px solid #cda45e;
+  border-right: 5px solid #f4623a;
+  border-bottom: 5px solid #f4623a;
   transition: .5s;
 }
 
@@ -863,7 +864,7 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #cda45e;
+  color: #f4623a;
 }
 
 .about .content p:last-child {
@@ -890,7 +891,7 @@ section {
   display: block;
   font-size: 28px;
   font-weight: 700;
-  color: #cda45e;
+  color: #f4623a;
 }
 
 .why-us .box h4 {
@@ -909,7 +910,7 @@ section {
 }
 
 .why-us .box:hover {
-  background: #cda45e;
+  background: #f4623a;
   padding: 30px 30px 70px 30px;
   box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
 }
@@ -1396,6 +1397,9 @@ section {
 /*--------------------------------------------------------------
 # Chefs
 --------------------------------------------------------------*/
+#chefs{
+  background: #0c0b09;
+}
 .chefs .member {
   text-align: center;
   margin-bottom: 20px;
@@ -1454,7 +1458,7 @@ section {
 }
 
 .chefs .member .social a:hover {
-  color: #cda45e;
+  color: #f4623a;
 }
 
 .chefs .member .social i {
